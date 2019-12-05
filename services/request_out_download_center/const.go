@@ -1,0 +1,20 @@
+package request_out_download_center
+
+const (
+	PRIORITY_LOW    = 1
+	PRIORITY_NORMAL = 2
+	PRIORITY_HIGH   = 3
+)
+
+const (
+	RESPONSE_TYPE_BODY = 1
+	RESPONSE_TYPE_BODY_HEADER = 2
+	RESPONSE_TYPE_BODY_CAPTURE = 4
+)
+
+const (
+	RESPONSE_STATUS_未抓取 = 0
+	RESPONSE_STATUS_正在抓取 = 1
+	RESPONSE_STATUS_抓取成功 = 2
+	RESPONSE_STATUS_抓取失败 = 3
+)

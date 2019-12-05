@@ -1,2 +1,2 @@
-# dc_wrapper_api
-golang,dc_wapper的接口
+## 下载中心包裹API
+基于Golang实现用于和dc-wrapper交互的Web API
